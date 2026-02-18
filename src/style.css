@@ -1,35 +1,3 @@
-/* body {
-    margin: 0;
-}
-
-.main-container-stars {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container-stars {
-    width: 96px;
-    height: 116px;
-    background-color: aqua;
-}
-.stars {
-    display: flex;
-}
-.stars__star {
-    background-image: url(./images/star.svg);
-    background-size: cover;
-    background-position: center;
-
-    width: 16px;
-    height: 16px;
-}
-.stars__star:not(:last-child) {
-    margin-right: 4px;
-    margin-bottom: 4px;
-} */
-
 body {
   margin: 0;
 }
@@ -45,7 +13,7 @@ body {
 
   width: 16px;
   height: 16px;
-  border-radius: 0.5px;
+  border-radius: 1px;
 }
 
 .stars__star:not(:last-child) {
